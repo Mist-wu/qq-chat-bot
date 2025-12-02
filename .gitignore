@@ -17,3 +17,6 @@ venv/
 .venv/
 env/
 .env
+
+# 数据文件
+data/
