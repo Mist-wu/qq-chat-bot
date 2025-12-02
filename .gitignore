@@ -9,6 +9,7 @@ napcat/
 
 # Python
 __pycache__/
+ncatbot/
 *.py[cod]
 *$py.class
 *.so
