@@ -1,0 +1,19 @@
+# 日志文件
+logs/*.log
+
+# 配置文件
+config.yaml
+
+# NapCat 相关
+napcat/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
