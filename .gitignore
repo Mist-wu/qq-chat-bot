@@ -1,16 +1,17 @@
 # 日志文件
 logs/*.log
+logs/*.log.*
 
 # 配置文件
 config.yaml
 
 # NapCat 相关
 napcat/
+ncatbot/
 needfix.md
 
 # Python
 __pycache__/
-ncatbot/
 *.py[cod]
 *$py.class
 *.so
