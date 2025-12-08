@@ -16,12 +16,12 @@ bot = BotClient()
 @bot.private_event()
 async def on_private_message(msg: PrivateMessage):
     if msg.raw_message == "测试":
-        await bot.api.post_private_msg(msg.user_id, text="Bot 测试成功")
+        await bot.api.post_private_msg(msg.user_id, text="Bot 测试成功?")
 
 @bot.group_event()
 async def on_group_message(msg: GroupMessage):
     if msg.raw_message == "测试":
-        await bot.api.post_group_msg(msg.group_id, text="Bot 测试成功")
+        await bot.api.post_group_msg(msg.group_id, text="Bot 测试成功!")
 
 # ========== 启动 BotClient==========
 bot.run()
