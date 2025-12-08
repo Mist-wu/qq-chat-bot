@@ -9,6 +9,7 @@ config.yaml
 napcat/
 ncatbot/
 needfix.md
+ncatbot-4.3.2.post2.dist-info/
 
 # Python
 __pycache__/
